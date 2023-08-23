@@ -1,0 +1,17 @@
+.sobre-nosotros__informacion{
+   color: #8c8888;
+   font-weight: 100; 
+}
+
+@media screen and (min-width: 0) {
+   .sobre-nosotros__informacion{
+      font-size: 1.3rem;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .sobre-nosotros__informacion{
+   font-size: 1.75rem;
+}
+
+}

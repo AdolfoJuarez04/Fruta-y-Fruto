@@ -1,0 +1,26 @@
+.rodapie{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width: 0) {
+    .rodapie{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5rem;
+    }
+    
+}
+
+@media screen and (min-width: 768px) {
+    .rodapie{
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
